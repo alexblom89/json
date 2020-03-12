@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JSON & Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="json.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Bellota+Text&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+    <!-- STEP 1: Build out a HEADER and a SECTION element -->
+    <header>
+      <h1> Plenty O' Pizza</h1>
+    </header>
+    <section>
+    </section>
+    <footer>
+      <p> COMP1073 - Module 4 - Week 9 - JSON & Pizza</p>
+    </footer>
+    </div><!--end container-->
+    <script>
+      {
+        "pizzaTypes": [
+        {
+          "name" : "Classic Pepperoni",
+          "price" : 9.75,
+          "size" : "large",
+          "toppings" : [
+                  "cheese",
+                  "pepperoni"
+          ],
+          "image" : "pizza-1.jpg"
+        },
+        {
+          "name" : "Veggie Delight",
+          "price" : 12.95,
+          "size" : "small",
+          "toppings" : [
+                  "cheese",
+                  "green olives",
+                  "tomatoes",
+                  "mushrooms"
+          ],
+          "image" : "pizza-2.jpg"
+        },
+        {
+          "name" : "Meat Lovers",
+          "price" : 14.95,
+          "size" : "medium",
+          "toppings" : [
+                  "cheese",
+                  "pepperoni",
+                  "italian sausage",
+                  "bacon"
+          ],
+          "image" : "pizza-3.jpg"
+        }
+      ]
+      }
+    </script>
+  </body>
+</html>
